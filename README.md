@@ -1,8 +1,18 @@
-#TearGen
-
+# TearGen
 RSA key generator and string decryptor.
 
+## Installation
+Install mono:
+```bash
+sudo apt-get install mono-devel
+```
+Compile:
+```bash
+mcs TearGen.cs
+```
+
+## Usage
 Options:
-1. Generate public/private key pair
-2. Decrypt a string that was encrypted with key from option 1
-3. Close
+* Generate public/private key pair
+* Decrypt a string that was encrypted with key from option 1
+* Close
